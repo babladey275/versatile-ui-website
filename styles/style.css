@@ -21,6 +21,7 @@ body {
 h3 {
     font-size: 3rem;
     font-weight: 900;
+    line-height: 120%;
     margin-bottom: 1rem;
 }
 .bg-primary {
@@ -208,4 +209,28 @@ main {
     font-size: 18px;
     font-weight: 600;
     margin-bottom: 0.5rem;
+}
+
+/* run styles */
+.run-content {
+    margin-left: 7rem;
+    margin-right: 10rem;
+    padding: 2rem;
+    padding-left: 3rem;
+    background: rgb(34, 34, 34);
+    display: flex;
+    border-radius: 1rem;
+    gap: 11rem;
+}
+
+.run-content img {
+    border-radius: 1rem;
+}
+
+.run-description {
+
+}
+
+.run-description button {
+    width: 224px;
 }
