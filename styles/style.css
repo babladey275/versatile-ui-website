@@ -15,11 +15,14 @@ body {
 
 /* shared styles */
 .container {
-    width: 90%;
-    margin: 3rem auto;
-    border-radius: 1rem;
+    background: rgb(0, 0, 0);
+    padding: 3rem 10rem 5rem 7rem;
 }
-
+h3 {
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 1rem;
+}
 .bg-primary {
     background-color: black;
 }
@@ -51,6 +54,7 @@ p {
     color: rgba(255, 255, 255, 0.5);
     margin-bottom: 1.75rem;
 }
+
 /* nav related styles */
 .header {
     background: linear-gradient(180.00deg, rgb(17, 17, 17) 100%, rgba(119, 119, 119, 0) 100%);
@@ -101,6 +105,12 @@ p {
     padding: 8px 20px;
 }
 
+.ham-burger {
+    color: white;   
+    font-size: 26px;
+    display: none;
+}
+
 /* banner related styles */
 .banner {
     display: flex;
@@ -113,7 +123,6 @@ p {
     font-weight: 900;
     margin-bottom: 1.75rem;
     line-height: 120%;
-    letter-spacing: 0%;
 }
 
 .shape {
@@ -176,4 +185,27 @@ p {
 main {
     max-width: 1440px;
     margin: 0 auto;
+}
+
+/* Change your habits */
+.change-habits {
+    text-align: center;
+    margin-bottom: 3.5rem;
+}
+
+.habits-content {
+    display: flex;
+    /* justify-content: space-around; */
+    text-align: center;
+}
+
+.habits-content img {
+    border-radius: 50%;
+    margin-bottom: 2rem;
+}
+
+.habits-content h5 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
 }
