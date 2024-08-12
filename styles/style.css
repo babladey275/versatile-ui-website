@@ -24,6 +24,12 @@ h3 {
     line-height: 120%;
     margin-bottom: 1rem;
 }
+
+h4 {
+    font-size: 1.75rem;
+    font-weight: 900;
+    margin-bottom: 1rem;
+}
 .bg-primary {
     background-color: black;
 }
@@ -50,7 +56,7 @@ h3 {
 }
 
 p {
-    font-size: 1rem;
+    font-size: 14px;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.5);
     margin-bottom: 1.75rem;
@@ -117,6 +123,7 @@ p {
     display: flex;
     align-items: center;
     gap: 10rem;
+    margin-top: 2rem;
 }
 
 .banner-content h1 {
@@ -126,6 +133,10 @@ p {
     line-height: 120%;
 }
 
+.banner-content p {
+    font-size: 1rem;
+}
+
 .shape {
     font-family: 'Miama', sans-serif;
     font-size: 10rem;
@@ -133,9 +144,9 @@ p {
 }
 
 .round {
-    width: 40px;
-    height: 40px;
-    border-radius: 20px;
+    width: 36px;
+    height: 36px;
+    border-radius: 18px;
     background: rgb(230, 83, 60);
     margin-right: 10px;
 }
@@ -146,7 +157,7 @@ p {
     align-items: center;
     position: absolute;
     width: 206px;
-     height: 96px;
+    height: 96px;
     box-sizing: border-box;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 12px;
@@ -160,9 +171,14 @@ p {
     font-size: 1.5rem;
     font-weight: 900;
     margin-top: 20px;
+    margin-bottom: 0rem;
 }
 
 .card-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     position: absolute;
     width: 200px;
     height: 96px;
@@ -171,7 +187,6 @@ p {
     border-radius: 12px;
     backdrop-filter: blur(5px);
     background: rgba(48, 48, 48, 0.54);
-    padding: 1rem;
     margin-left: 240px;
     margin-top: -450px;
 }
@@ -179,6 +194,9 @@ p {
 .card-2 h3 {
     font-size: 2.5rem;
     font-weight: 900;
+    margin-top: 1.5rem;
+    margin-bottom: 0rem;
+    margin-left: -2rem;
 }
 
 /* main section styles */
@@ -227,10 +245,86 @@ main {
     border-radius: 1rem;
 }
 
-.run-description {
-
-}
-
 .run-description button {
     width: 224px;
+}
+
+/* BMI calculate related styles */
+
+.bmi-content {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+
+.bmi-content div {
+    width: 600px;
+}
+
+.bmi-container {
+    background: rgb(34, 34, 34);
+    padding: 3rem 10rem 5rem 7rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+table, tr, th, td {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-collapse: collapse;
+}
+
+table {
+    width: 300px;
+    height: 200px;
+    text-align: left;
+}
+
+th {
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 120%;
+    padding: 1rem;
+}
+
+td {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 120%;
+    padding: 1rem;
+}
+
+.chart h4 {
+    margin-bottom: 3rem;
+}
+
+.bmi-inputs input, select {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 22px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    width: 260px;
+    height: 50px;
+    padding: 12px 40px 12px 20px;
+    gap: 0.75rem;
+    margin-bottom: 0.75rem;
+    border: none;
+}
+
+.input-flex{
+    display: flex;
+    gap: 0.75rem;
+}
+
+#act-factor {
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+select {
+    cursor: pointer;
 }
