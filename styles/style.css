@@ -214,7 +214,6 @@ main {
 
 .habits-content {
     display: flex;
-    /* justify-content: space-around; */
     text-align: center;
 }
 
@@ -237,16 +236,23 @@ main {
     padding-left: 3rem;
     background: rgb(34, 34, 34);
     display: flex;
-    border-radius: 1rem;
-    gap: 11rem;
-}
-
-.run-content img {
+    gap: 8rem;
     border-radius: 1rem;
 }
 
 .run-description button {
     width: 224px;
+}
+
+.run-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: none;
+    object-position: 72% 22%;
+    border-radius: 1rem;
+    zoom: 56%;
+
+    
 }
 
 /* BMI calculate related styles */
@@ -261,6 +267,7 @@ main {
 
 .bmi-content div {
     width: 600px;
+    margin-bottom: -2rem;
 }
 
 .bmi-container {
@@ -327,4 +334,48 @@ td {
 
 select {
     cursor: pointer;
+}
+
+/* meet our team styles */
+.our-team {
+    text-align: center;
+    width: 620px;
+    margin: 4rem auto;
+    margin-top: 2rem;
+}
+
+.trainer-container {
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.trainer img {
+    width: 290px;
+    height: 240px;
+    border-radius: 18px;
+    filter: brightness(80%);
+    margin: 0.5rem;
+}
+
+.trainer-column1, .trainer-column2, .trainer-column3 {
+    margin-top: 0.6rem;
+}
+
+.trainer {
+    position: relative;
+}
+
+.trainer h6 {
+    position: absolute;
+    top: 75%;
+    left: 10%;
+    font-size: 1.25rem;
+}
+
+.trainer p {
+    position: absolute;
+    top: 85%;
+    left: 10%;
 }
