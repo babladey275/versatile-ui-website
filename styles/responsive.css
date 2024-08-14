@@ -1,0 +1,156 @@
+@media screen and (max-width: 576px) {
+    .header {
+        padding: 52px 20px 52px 20px;
+    }
+
+    .container {
+        padding: 52px 20px 52px 20px;
+    }
+
+    .navbar ul {
+        display: none;
+    }
+
+    .ham-burger {
+        display: block;
+    }
+
+    .banner {
+        flex-direction: column;
+    }
+
+    .banner-content h1 {
+        font-size: 2.25rem;
+    }
+
+    .shape {
+        font-size: 5rem;
+    }
+
+    .round i {
+        display: block;
+        
+    }
+
+    .btn-club{
+        display: none;
+    }
+
+    .join-btn {
+        display: block;
+    }
+
+    .banner-btn {
+        display: flex;
+    }
+
+    .btn-primary {
+        width: 160px;
+        font-size: 1rem;
+    }
+
+    .btn-secondary {
+        width: 200px;
+        font-size: 1rem;
+    }
+
+    .card-1 {
+        width: 155px;
+        height: 72px;
+        margin-left: 0;
+        margin-top: -320px;
+    }
+
+    .card-2 {
+        width: 155px;
+        height: 74px;
+        margin-left: 190px;
+        margin-top: -530px;
+    }
+
+    h3 {
+        font-size: 2rem;
+    }
+
+    .change-habits {
+        margin-top: -2.5rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    .habits-content {
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 2rem;
+    }
+
+    .run-content {
+        flex-direction: column;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        gap: 2rem;
+    }
+
+    .run-img img {
+        object-position: 68% 18%;
+        zoom: 30%;
+        border-radius: 2rem;
+    }
+
+    .bmi-content div{
+        width: 360px;
+    }
+
+    .chart h4{
+        font-size: 1rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .bmi-container {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 3rem;
+        padding: 2rem 2rem;
+    }
+
+    .bmi-calculate h4 {
+        font-size: 1rem;
+    }
+
+    .bmi-inputs input, select {
+        width: 172px;
+    }
+
+    #act-factor{
+        width: 97%;
+    }
+
+    .our-team {
+        width: 310px;
+        margin: 3rem;
+    }
+
+    .trainer-column1 {
+        display: none;
+    }
+
+    .trainer-container {
+        flex-direction: column;
+    }
+
+    .trainer img {
+        width: 95%;
+        height: 272px;
+    }
+
+    .footer {
+        padding: 52px 20px 52px 20px;
+    }
+
+    .footer-content {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .get-start {
+        flex-direction: column;
+        margin-left: 0;
+    }
+}

@@ -119,6 +119,9 @@ p {
 }
 
 /* banner related styles */
+.join-btn {
+    display: none;
+}
 .banner {
     display: flex;
     align-items: center;
@@ -149,6 +152,12 @@ p {
     border-radius: 18px;
     background: rgb(230, 83, 60);
     margin-right: 10px;
+}
+
+.round i {
+    display: none;
+    margin-top: 10px;
+    margin-left: 13px;
 }
 
 .card-1 {
@@ -221,6 +230,7 @@ main {
 .habits-content p {
     width: 205px;
     text-align: center;
+    margin: 0 auto;
 }
 
 .habits-content img {
@@ -257,8 +267,6 @@ main {
     object-position: 72% 22%;
     border-radius: 1rem;
     zoom: 56%;
-
-    
 }
 
 /* BMI calculate related styles */
