@@ -1,6 +1,7 @@
 @media screen and (max-width: 576px) {
     .header {
         padding: 52px 20px 52px 20px;
+        margin-bottom: -8rem;
     }
 
     .container {
@@ -17,6 +18,7 @@
 
     .banner {
         flex-direction: column;
+        gap: 3rem;
     }
 
     .banner-content h1 {
@@ -29,7 +31,6 @@
 
     .round i {
         display: block;
-        
     }
 
     .btn-club{
@@ -73,9 +74,10 @@
     }
 
     .change-habits {
-        margin-top: -2.5rem;
+        width: 320px;
         margin-left: 2rem;
         margin-right: 2rem;
+        margin-bottom: 3rem;
     }
 
     .habits-content {
@@ -98,6 +100,7 @@
 
     .bmi-content div{
         width: 360px;
+        margin-top: -2rem;
     }
 
     .chart h4{
@@ -139,6 +142,10 @@
     .trainer img {
         width: 95%;
         height: 272px;
+    }
+
+    .free-trial {
+        grid-template-columns: repeat(1, 1fr);
     }
 
     .footer {
